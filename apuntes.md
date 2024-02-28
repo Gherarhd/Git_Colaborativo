@@ -22,3 +22,21 @@ GUI significa Interfaz Gráfica de Usuario (del inglés, Graphical User Interfac
 <git config --global core.editor "code -w" 
 El comando git config --global core.editor "code -w" se utiliza para configurar el editor de texto que Git usará para las operaciones que requieren intervención del usuario, como escribir mensajes de confirmación. En este caso, estás configurando Visual Studio Code como tu editor global para Git.
 
+##Comandos de git:
+
+<tldr + comando = crea una lista de los usos del comando
+
+ (use "git rm --cached <file>..." to unstage)
+
+ <git status>
+ <git add archivo o .>
+ <git commit -m 'Nombre'>
+ <git log>
+ <git show >
+ <alias>
+ <git alias 'nuevo' 'comando'>
+
+
+ git commit -m 'ADD(HTML & CSS): Agrego estructura base -HTML con sus clases -CSS '
+ <git commit --amend -m 'para cambiar el mensaje del ultimo commit'
+
