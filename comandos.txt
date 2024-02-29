@@ -182,6 +182,23 @@ write -> Write-Output: Escribe datos en la salida estándar.
 
 
 
+-------------
+Texto que se agrega a un commit:
+
+Estructura : 
+'[Texto]( [Archivos] ): [Descripción del commit, hasta 50 caracteres].'
+
+Ejemplo: 
+'Docs(Readme.md): Creación de documentación' 
+
+
+Feat :
+Fix :
+Docs :
+Style :
+Refactor :
+Test :
+Perf :
 
 
 

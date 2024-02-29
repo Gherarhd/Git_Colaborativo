@@ -38,5 +38,8 @@ El comando git config --global core.editor "code -w" se utiliza para configurar 
 
 
  git commit -m 'ADD(HTML & CSS): Agrego estructura base -HTML con sus clases -CSS '
+ 
  <git commit --amend -m 'para cambiar el mensaje del ultimo commit'
+
+ git commit -m 'Comandos(TXT): agragacion de alias' -m 'Se agrego una lista de comandos alias'
 
