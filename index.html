@@ -5,15 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git Colaborativo</title>
-    <link rel="stylesheet" href="app.css">
+    <link
+    rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="img/git-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
 
-    <h1>Hola Mundo</h1>
+    <header class="header">
 
-    <!-- <video autoplay loop muted playsinline>
-        <source src="https://s3.amazonaws.com/webflow-prod-assets/6569e5664a1acbcdcad5ab67/65c9f3dcb857481554f95fdf_slotervaart-home.mp4" type="video/mp4">
-    </video> -->
-    
+        <div class="contenido-logo">
+            <img class="logo" src="img/git-logo.png" alt="Logo Git">
+        </div>
+
+        <nav class="navegacion">
+            <a class="enlaces" noopener href="https://git-scm.com/doc" target="_blank" rel="noopener noreferrer" >Documentación</a>
+            <a class="enlaces" href="https://git-scm.com/" target="_blank" rel="noopener noreferrer" >Sitio Oficial</a>
+            <a class="enlaces" href="https://git-scm.com/downloads" target="_blank" rel="noopener noreferrer" >Descarga</a>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+
+        <h1>Git Colaborativo</h1>
+
+        <div class="contenido-grid">
+            <h2>¿Que es Git?</h2>
+            <p>Git es una herramienta fundamental en el mundo de la programación, un sistema de control de versiones que te ayuda a gestionar y rastrear los cambios en tu código de manera eficiente. Piensa en Git como un guardián de tu proyecto, registrando cada ajuste y permitiéndote explorar el historial de tu trabajo.</p>
+        </div>
+       
+    </main>
+
+    <section class="slider contenedor">
+
+   
+<ul class="slider__contenedor">
+
+    <li class="slider__slide">
+        <img class="imagen-slide" src="img/git_workflow.jpg" alt="git workflow">
+    </li>
+    <li class="slider__slide">
+        <img class="imagen-slide" src="img/slide_5.jpg" alt="slide">
+    </li>
+    <li class="slider__slide">
+        <img class="imagen-slide" src="img/maxresdefault.jpg" alt="Max">
+    </li>
+
+</ul>
+
+
+
+    </section>
+
+    <footer class="footer">
+<a href="https://github.com/Gherarhd" target="_blank" rel="noopener noreferrer" >
+<img src="img/github-logo.svg" alt="Logo Git-Hub">
+<span> GitHub:</span> Gherarhd ravelo
+</a>
+<p class="copy">todos los derechos reservados &copy;</p>
+    </footer>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="assets/main.js"></script>
 </body>
 </html>
